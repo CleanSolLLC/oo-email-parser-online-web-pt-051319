@@ -11,7 +11,6 @@ class EmailParser
   def initialize(emails)
     @emails = emails
     parser = emails.split(/[\s\,\s]/)
-    binding.pry
   end
 
 end
