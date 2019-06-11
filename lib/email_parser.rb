@@ -12,7 +12,7 @@ class EmailParser
     @emails = emails
     parser.parse - emails.split(/[\s\,\s]/)
   end
-  
+
 end
 
 #emails = "john@doe.com, person@somewhere.org"
