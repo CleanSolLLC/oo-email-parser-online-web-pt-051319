@@ -10,13 +10,9 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails
+    parser.parse - emails.split(/[\s\,\s]/)
   end
-
-  def self.parse
-    parser.parse = emails.split(/[\s\,\s]/)
-    binding.pry
-    parser
-  end
+  
 end
 
 #emails = "john@doe.com, person@somewhere.org"
