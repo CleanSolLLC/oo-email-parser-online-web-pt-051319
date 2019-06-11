@@ -1,4 +1,6 @@
 require 'pry'
+
+end
 # Build a class EmailParser that accepts a string of unformatted
 # emails. The parse method on the class should separate them into
 # unique email addresses. The delimiters to support are commas (',')
@@ -7,6 +9,17 @@ require 'pry'
 class EmailParser
 
   attr_accessor :emails
-  binding.pry
+
+  def initialize(emails)
+    @emails = emails
+  end
+  
+  def self.parse
+
+  end
+
+end
+
+
 
 end
