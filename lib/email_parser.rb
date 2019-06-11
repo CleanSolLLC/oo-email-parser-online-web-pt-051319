@@ -13,7 +13,7 @@ class EmailParser
     binding.pry
   end
 
-  
+
 
 end
 
