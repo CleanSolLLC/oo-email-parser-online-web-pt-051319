@@ -10,7 +10,7 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails
-    self.parse = emails.gsub(/[\s\,]/."")
+    self.parse = emails.gsub(/[\s\,]/,"")
     binding.pry
   end
 
