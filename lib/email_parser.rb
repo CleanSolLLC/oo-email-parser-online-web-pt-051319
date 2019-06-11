@@ -8,10 +8,10 @@ class EmailParser
 
   attr_accessor :emails, :parse
 
-  def initialize(emails)
+  #def initialize(emails)
     #@emails = emails
     self.parse = emails.gsub(/[\s|,]/," ").split.uniq
-  end
+  #end
 
 end
 
