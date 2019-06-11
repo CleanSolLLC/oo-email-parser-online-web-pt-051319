@@ -6,19 +6,13 @@ require 'pry'
 
 class EmailParser
 
-  attr_accessor :emails, :parse
+  attr_accessor :emails
 
   def initialize(emails)
     @emails = emails
-    binding.pry
-  end
-
-  def self.parse
     parser = emails.split(/[\s\,\s]/)
     binding.pry
-    parser
   end
-
 
 end
 
