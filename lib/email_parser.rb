@@ -13,9 +13,9 @@ class EmailParser
   end
 
   def self.parse
-    parser = emails.split(/[\s\,\s]/)
-    parser
+    parser.parse = emails.split(/[\s\,\s]/)
     binding.pry
+    parser
   end
 end
 
