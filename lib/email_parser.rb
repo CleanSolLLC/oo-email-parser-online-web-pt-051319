@@ -13,7 +13,9 @@ class EmailParser
     binding.pry
   end
 
+  
+
 end
 
-emails = "john@doe.com, person@somewhere.org"
-parser = EmailParser.new(emails)
+#emails = "john@doe.com, person@somewhere.org"
+#parser = EmailParser.new(emails)
